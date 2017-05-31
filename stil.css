@@ -1,0 +1,83 @@
+.m20
+{
+    margin-top: 20px !important;
+}
+.m0
+{
+    margin: 0px;
+}
+.red
+{
+    background-color:red;
+}
+.yellow
+{
+    background-color:yellow;
+}
+.lightblue
+{
+    background-color:lightblue;
+}
+.green
+{
+    background-color: #015700;
+}
+.p40
+{
+    padding:40px;
+}
+.p0
+{
+    padding:0;
+}
+.ortala
+{
+    align: center;
+}
+.renk
+{
+    color: #3c763d;
+}
+.cevirbutton {
+    display: inline-block;
+    border-radius: 6px;
+    background-color: #5CB85C;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 25px;
+}
+
+.cevirbutton span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.cevirbutton span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.cevirbutton:hover span {
+    padding-right: 25px;
+}
+
+.cevirbutton:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+.h100
+{
+    height: 100px;
+}
