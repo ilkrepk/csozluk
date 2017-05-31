@@ -14,12 +14,12 @@
         include 'unloginheader.php'
         ?>
         <div class="container">
-            <form class="form-horizontal">
+            <form class="form-horizontal" action="insertUyeler.php" method="POST">
                 <center><h2>Kayıt Ol</h2></center>
                 <div class="form-group">
                     <label class="col-md-4 control-label" for="fn">Adınız</label>
                     <div class="col-md-4">
-                        <input id="fn" name="fn" type="text" placeholder="Ad giriniz" class="form-control input-md" required="">
+                        <input id="fn" name="ad" type="text" placeholder="Ad giriniz" class="form-control input-md" required="">
                     </div>
                 </div>
 
@@ -27,7 +27,7 @@
                 <div class="form-group">
                     <label class="col-md-4 control-label" for="ln">Soyadınız</label>
                     <div class="col-md-4">
-                        <input id="ln" name="ln" type="text" placeholder="Soyad giriniz" class="form-control input-md" required="">
+                        <input id="ln" name="soyad" type="text" placeholder="Soyad giriniz" class="form-control input-md" required="">
                     </div>
                 </div>
 
@@ -36,6 +36,14 @@
                     <label class="col-md-4 control-label" for="email">E-mail</label>
                     <div class="col-md-4">
                         <input id="email" name="email" type="text" placeholder="E-mail giriniz" class="form-control input-md" required="">
+                    </div>
+                </div>
+
+                <!-- Text input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="email">Doğum Tarihi</label>
+                    <div class="col-md-4">
+                        <input id="email" name="dtarih" type="date" placeholder="Doğum Tarihi" class="form-control input-md" required="">
                     </div>
                 </div>
 
@@ -51,7 +59,7 @@
                 <div class="form-group">
                     <label class="col-md-4 control-label" for="inputPassword">Şifre</label>
                     <div class="col-md-4">
-                        <input id="inputPassword" name="sifre" type="password" placeholder="Şifre tekrar giriniz" class="form-control input-md" required="">
+                        <input id="inputPassword" name="sifredogrula" type="password" placeholder="Şifre tekrar giriniz" class="form-control input-md" required="">
                     </div>
                 </div>
 
@@ -59,7 +67,7 @@
                 <div class="form-group">
                     <label class="col-md-4 control-label" for="selectbasic">Cinsiyet</label>
                     <div class="col-md-4">
-                        <select id="selectbasic" name="selectbasic" class="form-control input-md">
+                        <select id="selectbasic" name="cinsiyet" class="form-control input-md">
                             <option>ERKEK</option>
                             <option>KADIN</option>
                         </select>
