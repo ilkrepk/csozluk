@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
@@ -7,8 +7,11 @@
         <meta name="author" content="Halit Cem Tarakçı - İlker Epik">
         <link rel="icon" href="image/cerkess.ico">
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <link rel="stylesheet" type="text/css" href="stil.css">
-
+        <script type="text/javascript" src="betik.js"></script>
+        <script type="text/javascript" src="getTKelime.js"></script>
+        <script type="text/javascript" src="degis.js"></script>
     </head>
     <body>
         <?php
@@ -19,16 +22,16 @@
                 <div class="col-md-2"></div>
                 <!--Login olmadan çeviri yapma-->
                 <div class="col-md-8 p0">
-                    <form>
+
                         <div class="input-group input-group-lg">
-                            <span class="input-group-addon" id="basic-addon3">Çerkesce<span class="glyphicon glyphicon-menu-right" aria-hidden="true">Türkçe</span></span>
-                            <input type="text" class="form-control" placeholder="Kelime Ara">
+                            <span class="input-group-addon" id="basic-addon3">Çerkesce<span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>Türkçe</span>
+                            <input type="text" class="form-control" placeholder="Kelime Ara" id="kelime" name="istek"/>
                             <span class="input-group-btn">
-                            <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-refresh" aria-hidden="true"></span></button></span>
+                            <button class="btn btn-default" type="button" id="secim"><span class="glyphicon glyphicon-refresh" aria-hidden="true"></span></button></span>
                         </div>
-                        <center><button class="cevirbutton"><span>ÇEVİR</span></button></center>
-                        <p class="form-control renk h100">Çeviri Sonuçları</p>
-                    </form>
+                        <center><button class="cevirbutton" id="cevir"><span>ÇEVİR</span></button></center>
+                        <p class="form-control renk h100 size20" id="sonuc">Çeviri Sonuçları</p>
+
                 </div>
                 <div class="col-md-2> "></div>
             </div>

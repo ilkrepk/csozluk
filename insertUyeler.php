@@ -7,7 +7,7 @@ if ($_SERVER["REQUEST_METHOD"]=="POST"){
 function insertUyeler(){
 	global $connect;
 	
-	if(isset($_POST["ad"]) && isset($_POST["soyad"]) && isset($_POST["email"]) && isset($_POST["dtarih"]) && isset($_POST["sifre"]) && isset($_POST["sifredogrula"])){
+	if(isset($_POST["ad"]) && isset($_POST["soyad"]) && isset($_POST["email"]) && isset($_POST["dtarih"]) && isset($_POST["sifre"]) && isset($_POST["sifredogrula"])&& isset($_POST["cinsiyet"])){
 		
 		$Ad = $_POST["ad"];
 		$Soyad = $_POST["soyad"];
@@ -15,7 +15,7 @@ function insertUyeler(){
 		$D_Tarihi = $_POST["dtarih"];
         $Sifre = $_POST["sifre"];
         $Sifredogrula = $_POST["sifredogrula"];
-        $Cinsiyet = "";
+        $Cinsiyet = $_POST["cinsiyet"];
 	}
 	
 	else{

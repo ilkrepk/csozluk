@@ -35,7 +35,7 @@
                 <div class="form-group">
                     <label class="col-md-4 control-label" for="email">E-mail</label>
                     <div class="col-md-4">
-                        <input id="email" name="email" type="text" placeholder="E-mail giriniz" class="form-control input-md" required="">
+                        <input type="email" id="email" class="form-control input-md" placeholder="E-mail Giriniz" required autofocus>
                     </div>
                 </div>
 
@@ -57,7 +57,7 @@
 
                 <!-- Password again input-->
                 <div class="form-group">
-                    <label class="col-md-4 control-label" for="inputPassword">Şifre</label>
+                    <label class="col-md-4 control-label" for="inputPassword"> Tekrar Şifre</label>
                     <div class="col-md-4">
                         <input id="inputPassword" name="sifredogrula" type="password" placeholder="Şifre tekrar giriniz" class="form-control input-md" required="">
                     </div>
