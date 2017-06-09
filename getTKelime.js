@@ -6,8 +6,6 @@ $(document).ready(function(){
         {
             var url="getTKelime.php?istek=".concat(deger);
             $.get(url, function(data, status){
-                //alert("Data: " + data + "\nStatus: " + status);
-
                 var decoder = new TextDecoder('utf-8');
                 var text="";
                 if(data.sayi<1)
