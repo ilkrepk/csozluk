@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.1">
+    <root id="1"/>
+    <schema id="2" parent="1" name="information_schema">
+      <Current>1</Current>
+    </schema>
+    <schema id="3" parent="1" name="mysql"/>
+    <schema id="4" parent="1" name="performance_schema"/>
+    <schema id="5" parent="1" name="sozluk">
+      <Visible>1</Visible>
+    </schema>
+    <schema id="6" parent="1" name="sys"/>
+    <table id="7" parent="5" name="kategori"/>
+    <table id="8" parent="5" name="kelimeal"/>
+    <table id="9" parent="5" name="kelimeler"/>
+    <table id="10" parent="5" name="rutbe"/>
+    <table id="11" parent="5" name="telaffuz"/>
+    <table id="12" parent="5" name="uyeler"/>
+    <table id="13" parent="5" name="yaris"/>
+    <table id="14" parent="5" name="yarisma"/>
+    <column id="15" parent="7" name="KategoriID">
+      <Position>1</Position>
+      <DataType>int(10) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="16" parent="7" name="KategoriAdi">
+      <Position>2</Position>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="17" parent="7" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>KategoriID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="18" parent="8" name="Kid">
+      <Position>1</Position>
+      <DataType>int(10) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="19" parent="8" name="Yid">
+      <Position>2</Position>
+      <DataType>int(10) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="20" parent="8" name="Yid">
+      <ColNames>Yid</ColNames>
+    </index>
+    <key id="21" parent="8" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Kid
+Yid</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="22" parent="9" name="Kid">
+      <Position>1</Position>
+      <DataType>int(10) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="23" parent="9" name="CKelime">
+      <Position>2</Position>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="24" parent="9" name="TKelime">
+      <Position>3</Position>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="25" parent="9" name="KategoriID">
+      <Position>4</Position>
+      <DataType>int(10) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="26" parent="9" name="KategoriID">
+      <ColNames>KategoriID</ColNames>
+    </index>
+    <key id="27" parent="9" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Kid</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="28" parent="10" name="Rid">
+      <Position>1</Position>
+      <DataType>int(10) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="29" parent="10" name="RutbeAdi">
+      <Position>2</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="30" parent="10" name="Minimum">
+      <Position>3</Position>
+      <DataType>float unsigned|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="31" parent="10" name="Maximum">
+      <Position>4</Position>
+      <DataType>float unsigned|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="32" parent="10" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Rid</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="33" parent="11" name="Tid">
+      <Position>1</Position>
+      <DataType>int(10) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="34" parent="11" name="Yol">
+      <Position>2</Position>
+      <DataType>varchar(500)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="35" parent="11" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Tid</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="36" parent="12" name="Ad">
+      <Position>1</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="37" parent="12" name="Soyad">
+      <Position>2</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="38" parent="12" name="Sifre">
+      <Position>3</Position>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="39" parent="12" name="Email">
+      <Position>4</Position>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="40" parent="12" name="Basarim">
+      <Position>5</Position>
+      <DataType>float|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="41" parent="12" name="D_Tarihi">
+      <Position>6</Position>
+      <DataType>datetime|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="42" parent="12" name="Cinsiyet">
+      <Position>7</Position>
+      <DataType>varchar(5)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="43" parent="12" name="ToplamOyunSayisi">
+      <Position>8</Position>
+      <DataType>int(10) unsigned|0</DataType>
+    </column>
+    <column id="44" parent="12" name="ToplamDogruCevapSayisi">
+      <Position>9</Position>
+      <DataType>int(10) unsigned|0</DataType>
+    </column>
+    <column id="45" parent="12" name="Rid">
+      <Position>10</Position>
+      <DataType>int(10) unsigned|0</DataType>
+    </column>
+    <index id="46" parent="12" name="Rid">
+      <ColNames>Rid</ColNames>
+    </index>
+    <key id="47" parent="12" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Email</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="48" parent="13" name="Yid">
+      <Position>1</Position>
+      <DataType>int(10) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="49" parent="13" name="Y1ID">
+      <Position>2</Position>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="50" parent="13" name="Y2ID">
+      <Position>3</Position>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="51" parent="13" name="Y1DogruCevap">
+      <Position>4</Position>
+      <DataType>int(10) unsigned|0</DataType>
+    </column>
+    <column id="52" parent="13" name="Y2DogruCevap">
+      <Position>5</Position>
+      <DataType>int(10) unsigned|0</DataType>
+    </column>
+    <column id="53" parent="13" name="YTarih">
+      <Position>6</Position>
+      <DataType>datetime|0</DataType>
+    </column>
+    <column id="54" parent="13" name="KazananID">
+      <Position>7</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <key id="55" parent="13" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Yid</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="56" parent="14" name="Email">
+      <Position>1</Position>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="57" parent="14" name="Yid">
+      <Position>2</Position>
+      <DataType>int(10) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="58" parent="14" name="Yid">
+      <ColNames>Yid</ColNames>
+    </index>
+    <key id="59" parent="14" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Email
+Yid</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

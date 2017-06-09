@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3b7ade7e-298e-4575-96b2-7ac09891abd3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/getTKelime.js" afterPath="$PROJECT_DIR$/getTKelime.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/insertUyeler.php" afterPath="$PROJECT_DIR$/insertUyeler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kayit.php" afterPath="$PROJECT_DIR$/kayit.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -276,7 +273,7 @@
       <workItem from="1496579502392" duration="21300000" />
       <workItem from="1496609878410" duration="9231000" />
       <workItem from="1496760559653" duration="2121000" />
-      <workItem from="1496936366288" duration="15563000" />
+      <workItem from="1496936366288" duration="16544000" />
     </task>
     <task id="LOCAL-00001" summary="tkelime eklendi">
       <created>1496609579922</created>
@@ -292,11 +289,18 @@
       <option name="project" value="LOCAL" />
       <updated>1496609679271</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="üye kaydı çalışıyor.&#10;araf.php eklendi&#10;üye kaydı için postUyeler.js eklendi&#10;şifre tekrarı kontrolü eklendi.">
+      <created>1497013144947</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1497013144947</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74112000" />
+    <option name="totallyTimeSpent" value="75093000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -362,7 +366,8 @@
     <MESSAGE value="inserÜyeler eklendi" />
     <MESSAGE value="tkelime eklendi" />
     <MESSAGE value="çerkesce -&gt; türkçe&#10;türkçe-&gt; çerkesce&#10;çeviri kısmı tamamlandı." />
-    <option name="LAST_COMMIT_MESSAGE" value="çerkesce -&gt; türkçe&#10;türkçe-&gt; çerkesce&#10;çeviri kısmı tamamlandı." />
+    <MESSAGE value="üye kaydı çalışıyor.&#10;araf.php eklendi&#10;üye kaydı için postUyeler.js eklendi&#10;şifre tekrarı kontrolü eklendi." />
+    <option name="LAST_COMMIT_MESSAGE" value="üye kaydı çalışıyor.&#10;araf.php eklendi&#10;üye kaydı için postUyeler.js eklendi&#10;şifre tekrarı kontrolü eklendi." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
