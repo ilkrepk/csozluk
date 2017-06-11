@@ -21,13 +21,17 @@ function getKullanici()
             {
                 $temp_array[]=$row;
             }
+            $json_result = array("sayi" => $number_of_rows, "kelimeler"=>$temp_array);
+            header ('Content-Type: application/json');
+            echo json_encode ($json_result);
+            mysqli_close($connect);
         }
-        $json_result = array("sayi" => $number_of_rows, "kelimeler"=>$temp_array);
-
-        header ('Content-Type: application/json');
-        echo json_encode ($json_result);
-        mysqli_close($connect);
+        else
+        {
+            header ('Content-Type: application/json');
+            echo json_encode (array("sayi" => $number_of_rows,"Error"=>"Bad Request"));
+            header ('HTTP 1.1 403 Bad Request');
+        }
     }
 }
 ?>
-

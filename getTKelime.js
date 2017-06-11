@@ -1,8 +1,8 @@
 $(document).ready(function(){
     $("#cevir").click(function(){
-        var icerikbasic_addon3=document.getElementById("basic-addon3").innerHTML;
+        var secim=document.getElementById("secim").innerHTML;
         var deger=$("#kelime").val();
-        if(icerikbasic_addon3=='Çerkesce<span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>Türkçe')
+        if(secim=='Çerkesce<span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>Türkçe')
         {
             var url="getTKelime.php?istek=".concat(deger);
             $.get(url, function(data, status){
@@ -16,7 +16,14 @@ $(document).ready(function(){
                 {
                     for (var i = 0; i < data.sayi; i++)
                     {
-                        text += data.kelimeler[i].TKelime + "<br/> <span>--------------------------------------------------------------------------------------------------------------------</span><br/>";
+                        if(i==data.sayi-1)
+                        {
+                            text += data.kelimeler[i].TKelime;
+                        }
+                        else
+                        {
+                            text += data.kelimeler[i].TKelime + ",<br/>";
+                        }
                     }
                     $("#sonuc").html(text);
                 }
@@ -38,7 +45,14 @@ $(document).ready(function(){
                 {
                     for (var i = 0; i < data.sayi; i++)
                     {
-                        text += data.kelimeler[i].CKelime + "<br/> <span>--------------------------------------------------------------------------------------------------------------------</span><br/>";
+                        if(i==data.sayi-1)
+                        {
+                            text += data.kelimeler[i].CKelime;
+                        }
+                        else
+                        {
+                            text += data.kelimeler[i].CKelime + ",<br/>";
+                        }
                     }
                     $("#sonuc").html(text);
                 }

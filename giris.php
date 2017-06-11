@@ -15,7 +15,7 @@
       include 'unloginheader.php'
     ?>
     <div class="container">
-      <form class="form-signin">
+      <form class="form-signin" method="post" action="loginindex.php">
         <center><h2>Giriş Yapınız</h2></center>
         <label for="inputEmail" class="sr-only">E-mail</label>
         <input type="email" id="inputEmail" class="form-control" placeholder="E-mail Adresi" required autofocus>

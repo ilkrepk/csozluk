@@ -1287,7 +1287,10 @@ h6,
   font-size: 12px;
 }
 p {
-  margin: 0 0 10px;
+  margin: 0 0 0px;
+  padding:10px;
+  text-align: center;
+  font-size: 18px;
 }
 .lead {
   margin-bottom: 20px;
@@ -1387,7 +1390,10 @@ a.bg-success:focus {
   background-color: #c1e2b3;
 }
 .bg-info {
-  background-color: #d9edf7;
+  background-color: #EEEEEE;
+  color:#555555;
+  border:1px solid #CCCCCC;
+  border-radius: 6px;
 }
 a.bg-info:hover,
 a.bg-info:focus {
