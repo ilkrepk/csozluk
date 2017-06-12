@@ -1,3 +1,0 @@
-1-) veri tabanýna cinsiyet erkek/kadýn diye gönderiliyor ancak veri tabanýnda bunlar bool ile tutuluyor.
-2-) Kullanýcý profil resmi veri tabanýnda tutulmuyorç
-3-) Ses veri tabanýnda tutulmuyor.
