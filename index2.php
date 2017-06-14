@@ -1,8 +1,12 @@
 <?php
 session_start();
-if(isset($_SESSION["E-mail"]) && isset($_SESSION["Sifre"]))
+if(!(isset($_SESSION["E-mail"]) && isset($_SESSION["Sifre"])))
 {
-    header("location: index2.php");
+    header("location: index.php");
+}
+if(isset($_SESSION["E-mail"]))
+{
+    $email=$_SESSION["E-mail"];
 }
 ?>
 <!DOCTYPE html>
@@ -20,13 +24,14 @@ if(isset($_SESSION["E-mail"]) && isset($_SESSION["Sifre"]))
     <script type="text/javascript" src="degis.js"></script>
 </head>
 <body>
-<?php include "unloginheader.php"; ?>
+<?php include "loginheader.php"; ?>
 <!-- Buraya kadar navbar-->
 <div class="container">
     <div class="row p40">
         <div class="col-md-2"></div>
         <!--Login olmadan çeviri yapma-->
         <div class="col-md-8 p0">
+
             <div class="input-group-lg">
 
                 <p class="bg-info" id="secim">Çerkesce<span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>Türkçe</p>
@@ -36,10 +41,19 @@ if(isset($_SESSION["E-mail"]) && isset($_SESSION["Sifre"]))
 
             <center><button class="cevirbutton" id="cevir"><span>ÇEVİR</span></button></center>
             <p class="form-control renk h100 size20" id="sonuc">Çeviri Sonuçları</p>
-
+            <div class="col-md-1 col-xs-1"></div>
+            <div class="col-md-5 col-xs-5">
+                <a href="test.php"><button type="button" class="btn btn-info btn-block btn-lg" style="height: 100px; margin-top:30px; font-size: 18px;">TEST</button></a>
+            </div>
+            <!--<div class="col-md-2 col-xs-2"></div>-->
+            <div class="col-md-5 col-xs-5">
+                <button type="button" class="btn btn-danger btn-block btn-lg" style="height: 100px; margin-top:30px; font-size: 18px"; >YARIŞ</button>
+            </div>
+            <div class="col-md-1 col-xs-1"></div>
         </div>
         <div class="col-md-2> "></div>
     </div>
+
 </div>
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
