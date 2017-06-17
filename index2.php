@@ -47,13 +47,12 @@ if(isset($_SESSION["E-mail"]))
             </div>
             <!--<div class="col-md-2 col-xs-2"></div>-->
             <div class="col-md-5 col-xs-5">
-                <button type="button" class="btn btn-danger btn-block btn-lg" style="height: 100px; margin-top:30px; font-size: 18px"; >YARIŞ</button>
+                <a href="yaris.php"><button type="button" class="btn btn-danger btn-block btn-lg" style="height: 100px; margin-top:30px; font-size: 18px;">YARIŞ</button></a>
             </div>
             <div class="col-md-1 col-xs-1"></div>
         </div>
         <div class="col-md-2> "></div>
     </div>
-
 </div>
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>

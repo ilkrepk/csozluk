@@ -22,24 +22,24 @@ if(isset($_SESSION["E-mail"]))
     <link rel="stylesheet" type="text/css" href="stil.css">
 </head>
 <body>
-<?php include "loginheader.php"; ?>
+<?php include "loginheader.php";?>
 <!-- Buraya kadar navbar-->
 <div class="container">
     <div class="row p40"">
         <div class="col-md-2"></div>
         <div class="col-md-8 p0">
             <div class="col-md-2"></div>
-            <div class="col-md-3"><img src="image/cerkes.jpg" class="img-responsive" alt="cerkes bayrağı" style="height: 100px; width: 150px; margin: auto"/></div>
+            <div class="col-md-3"><img src="image/cerkes.png" class="img-responsive" alt="cerkes bayrağı" style="height: 100px; width: 150px; margin: auto"/></div>
             <div class="col-md-2"><img src="image/ok.jpg" class="img-responsive" alt="cerkes bayrağı" style="height: 100px; width: 150px; margin: auto"/></div>
             <div class="col-md-3"><img src="image/turk.jpg" class="img-responsive" alt="cerkes bayrağı" style="height: 100px; width: 150px; margin: auto"/></div>
             <div class="col-md-2"></div>
-            <a href="turkceTest.php"><button type="button" class="btn btn btn-block btn-lg" id="testBaslat" style="height: 75px; font-size: 15px; width: 50%; margin: auto; margin-top:15px; background-color: #dff0d8; padding-top: 15px;">TEST</button></a>
+            <a href="turkceTest.php"><button type="button" class="btn btn btn-block btn-lg" id="testBaslat" style="height: 75px; font-size: 15px; width: 50%; margin: auto; margin-top:15px; background-color: #dff0d8; padding-top: 15px;">Türkçe Sor</button></a>
             <div class="col-md-2"></div>
-            <div class="col-md-3"><img src="image/cerkes.jpg" class="img-responsive" alt="cerkes bayrağı" style="height: 100px; width: 150px; margin: auto"/></div>
-            <div class="col-md-2"><img src="image/ok.jpg" class="img-responsive" alt="cerkes bayrağı" style="height: 100px; width: 150px; margin: auto"/></div>
             <div class="col-md-3"><img src="image/turk.jpg" class="img-responsive" alt="cerkes bayrağı" style="height: 100px; width: 150px; margin: auto"/></div>
+            <div class="col-md-2"><img src="image/ok.jpg" class="img-responsive" alt="cerkes bayrağı" style="height: 100px; width: 150px; margin: auto"/></div>
+            <div class="col-md-3"><img src="image/cerkes.png" class="img-responsive" alt="cerkes bayrağı" style="height: 100px; width: 150px; margin: auto"/></div>
             <div class="col-md-2"></div>
-            <button type="button" class="btn btn btn-block btn-lg" style="height: 75px; font-size: 15px; width: 50%; margin: auto; margin-top:15px; background-color: #dff0d8; padding-top: 15px;">TEST</button>
+            <a href="cerkesceTest.php"><button type="button" class="btn btn btn-block btn-lg" id="testBaslat" style="height: 75px; font-size: 15px; width: 50%; margin: auto; margin-top:15px; background-color: #dff0d8; padding-top: 15px;">Çerkece Sor</button></a>
         </div>
         <div class="col-md-2> "></div>
     </div>

@@ -3,7 +3,7 @@ var dCevap=0;
 var yCevap=0;
 var dogruCevap;
 $(document).ready(function(){
-    $.get("getTest.php", function(data, status){
+    $.get("getTestT.php", function(data, status){
 
         function sonrakiSoru()
         {
@@ -15,41 +15,41 @@ $(document).ready(function(){
             i++;
             if(i<10)
             {
-                var soru=("'"+data.kelimeID[i][0].TKelime+"'"+" kelimesinin Çerkesce karşılığı aşağıdakilerden hangisidir.");
+                var soru=("'"+data.kelimeID[i][0].CKelime+"'"+" kelimesinin Türkçe karşılığı aşağıdakilerden hangisidir.");
                 $("#soru").text(soru);
                 dogruCevap= Math.floor(Math.random() * 4) + 1;
                 switch (dogruCevap)
                 {
                     case 1 :
-                        $("#s1").text(data.kelimeID[i][1].CKelime);
+                        $("#s1").text(data.kelimeID[i][1].TKelime);
                         break;
                     case 2 :
-                        $("#s2").text(data.kelimeID[i][1].CKelime);
+                        $("#s2").text(data.kelimeID[i][1].TKelime);
                         break;
                     case 3 :
-                        $("#s3").text(data.kelimeID[i][1].CKelime);
+                        $("#s3").text(data.kelimeID[i][1].TKelime);
                         break;
                     default :
-                        $("#s4").text(data.kelimeID[i][1].CKelime);
+                        $("#s4").text(data.kelimeID[i][1].TKelime);
                         break;
                 }
                 for(var j=2; j<=4;j++)
                 {
                     if($("#s1").text()=="")
                     {
-                        $("#s1").text(data.kelimeID[i][j].CKelime);
+                        $("#s1").text(data.kelimeID[i][j].TKelime);
                     }
                     else if($("#s2").text()=="")
                     {
-                        $("#s2").text(data.kelimeID[i][j].CKelime);
+                        $("#s2").text(data.kelimeID[i][j].TKelime);
                     }
                     else if($("#s3").text()=="")
                     {
-                        $("#s3").text(data.kelimeID[i][j].CKelime);
+                        $("#s3").text(data.kelimeID[i][j].TKelime);
                     }
                     else if($("#s4").text()=="")
                     {
-                        $("#s4").text(data.kelimeID[i][j].CKelime);
+                        $("#s4").text(data.kelimeID[i][j].TKelime);
                     }
                     else
                     {

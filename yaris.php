@@ -20,7 +20,7 @@ if(isset($_SESSION["E-mail"]))
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="stil.css">
-    <script src="getCTestKelimeler.js"></script>
+    <script src="getYarisKelimeler.js"></script>
 <body>
 <?php include "loginheader.php"; ?>
 <!-- Buraya kadar navbar-->
@@ -29,6 +29,7 @@ if(isset($_SESSION["E-mail"]))
         <div class="col-md-2"></div>
         <div class="col-md-8 p0" style="border:2px solid #c0efac; border-radius: 6px; background-color:#CCCCCC;">
             <p class="h100 size20" id="soru" style="background-color:#dff0d8; text-align: center; border: 2px solid #c0efac; border-radius:6px; margin: 15px; padding-top: 41px;"></p>
+            <p hidden id="mail"><?= $email?></p>
             <button type="button" class="btn btn btn-block btn-lg" id="s1" style="height: 50px; font-size: 15px; width: 75%; margin: auto; margin-top:15px; background-color: #dff0d8"></button>
             <button type="button" class="btn btn btn-block btn-lg" id="s2" style="height: 50px; font-size: 15px; width: 75%; margin: auto; margin-top:15px;background-color: #dff0d8"></button>
             <button type="button" class="btn btn btn-block btn-lg" id="s3" style="height: 50px; font-size: 15px; width: 75%; margin: auto; margin-top:15px;background-color: #dff0d8"></button>
