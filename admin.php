@@ -8,6 +8,26 @@
     }
     else
     {
+        //kategorileri çekme
+        global $connect;
+        $sorgu="SELECT KategoriAdi from kategori";
+        $result = mysqli_query($connect,$sorgu);
+
+        $number_of_rows = mysqli_num_rows($result);
+        $temp_array = array();
+
+        if($number_of_rows > 0)
+        {
+            while($row = mysqli_fetch_assoc($result))
+            {
+                $temp_array[]=$row;
+            }
+            //print_r($temp_array);
+
+            //echo $temp_array[i]['KategoriAdi'];
+        }
+        //------------------
+
         if(isset($_SESSION["E-mail"]))
         {
             $email=$_SESSION["E-mail"];
@@ -21,25 +41,7 @@
             kelimeEkle();
         }
     }
-//kategorileri çekme
-    global $connect;
-    $sorgu="SELECT KategoriAdi from kategori";
-    $result = mysqli_query($connect,$sorgu);
 
-    $number_of_rows = mysqli_num_rows($result);
-    $temp_array = array();
-
-    if($number_of_rows > 0)
-    {
-        while($row = mysqli_fetch_assoc($result))
-        {
-            $temp_array[]=$row;
-        }
-        //print_r($temp_array);
-
-        //echo $temp_array[i]['KategoriAdi'];
-    }
-//------------------
 function kelimeEkle()
 {
     global $connect;
@@ -58,9 +60,9 @@ function kelimeEkle()
         mysqli_query($connect, $query) or die (mysqli_error($connect));
 
     }
-    else if (isset($_POST["KategoriAdi"])){
+    else if (isset($_POST["KategoriAdiGetir"])){
 
-        $KategoriAdi = $_POST["KategoriAdi"];
+        $KategoriAdi = $_POST["KategoriAdiGetir"];
         $KategoriEkleSorgu = "INSERT INTO kategori (KategoriAdi) values ('$KategoriAdi');";
         mysqli_query($connect, $KategoriEkleSorgu) or die (mysqli_error($connect));
         mysqli_close($connect);
@@ -112,7 +114,7 @@ function kelimeEkle()
                 <a href="#"><button type="button" id="panelAc2" class="btn btn-info btn-block btn-lg" style="height: 50px; margin-top:30px; font-size: 18px;">Kelime Ekle Panelini Aç</button></a>
                 <div id="panel2" style="display: none;">
                     <form action="" method="post">
-                        <input id="ln" name="KategoriAdi" type="text" placeholder="Kategori Gir" class="form-control input-md" style="margin-top: 20px; margin-bottom: 20px; height: 50px">
+                        <input id="ln" name="KategoriAdiGetir" type="text" placeholder="Kategori Gir" class="form-control input-md" style="margin-top: 20px; margin-bottom: 20px; height: 50px">
                         <button type="submit" class="btn btn-info btn-block btn-lg" style="height: 50px; margin-top:30px; margin: auto; font-size: 18px; width: 200px;">Kategori Ekle</button>
                     </form>
                 </div>
