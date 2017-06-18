@@ -31,7 +31,7 @@ if(isset($_SESSION["E-mail"]))
             <p class="bg-warning" style="border:2px solid #c0efac;border-radius: 6px;" >Ad:</p>
         </div>
         <div class="col-md-8 p0" style="border:2px solid #c0efac; border-radius: 6px; background-color:#CCCCCC;">
-            <p class="bg-success" id="ad">epik</p>
+            <p class="bg-success" id="ad"></p>
         </div>
         <div class="col-md-2> "></div>
     </div>
@@ -40,7 +40,7 @@ if(isset($_SESSION["E-mail"]))
             <p class="bg-warning" style="border:2px solid #c0efac;border-radius: 6px;" >Soyad:</p>
         </div>
         <div class="col-md-8 p0" style="border:2px solid #c0efac; border-radius: 6px; background-color:#CCCCCC;">
-            <p class="bg-success" id="soyad">epik</p>
+            <p class="bg-success" id="soyad"></p>
         </div>
         <div class="col-md-2> "></div>
     </div>
@@ -49,7 +49,7 @@ if(isset($_SESSION["E-mail"]))
             <p class="bg-warning" style="border:2px solid #c0efac;border-radius: 6px;" >Email:</p>
         </div>
         <div class="col-md-8 p0" style="border:2px solid #c0efac; border-radius: 6px; background-color:#CCCCCC;">
-            <p class="bg-success" id="email">epik</p>
+            <p class="bg-success" id="email"></p>
         </div>
         <div class="col-md-2> "></div>
     </div>
@@ -58,7 +58,7 @@ if(isset($_SESSION["E-mail"]))
             <p class="bg-warning" style="border:2px solid #c0efac;border-radius: 6px;" >Başarı Puanı:</p>
         </div>
         <div class="col-md-8 p0" style="border:2px solid #c0efac; border-radius: 6px; background-color:#CCCCCC;">
-            <p class="bg-success" id="basarim">epik</p>
+            <p class="bg-success" id="basarim"></p>
         </div>
         <div class="col-md-2> "></div>
     </div>
@@ -67,7 +67,7 @@ if(isset($_SESSION["E-mail"]))
             <p class="bg-warning" style="border:2px solid #c0efac;border-radius: 6px;" >Yarış Sayısı:</p>
         </div>
         <div class="col-md-8 p0" style="border:2px solid #c0efac; border-radius: 6px; background-color:#CCCCCC;">
-            <p class="bg-success" id="yarissayisi">epik</p>
+            <p class="bg-success" id="yarissayisi"></p>
         </div>
         <div class="col-md-2> "></div>
     </div>
@@ -76,7 +76,7 @@ if(isset($_SESSION["E-mail"]))
             <p class="bg-warning" style="border:2px solid #c0efac;border-radius: 6px;" >Kazanım Sayısı:</p>
         </div>
         <div class="col-md-8 p0" style="border:2px solid #c0efac; border-radius: 6px; background-color:#CCCCCC;">
-            <p class="bg-success" id="winsayisi">epik</p>
+            <p class="bg-success" id="winsayisi"></p>
         </div>
         <div class="col-md-2> "></div>
     </div>
@@ -85,7 +85,7 @@ if(isset($_SESSION["E-mail"]))
             <p class="bg-warning" style="border:2px solid #c0efac;border-radius: 6px;" >Rütbe:</p>
         </div>
         <div class="col-md-8 p0" style="border:2px solid #c0efac; border-radius: 6px; background-color:#CCCCCC;">
-            <p class="bg-success" id="rutbe">epik</p>
+            <p class="bg-success" id="rutbe"></p>
         </div>
         <div class="col-md-2> "></div>
     </div>

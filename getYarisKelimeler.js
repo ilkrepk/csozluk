@@ -5,7 +5,8 @@ var dogruCevap;
 $(document).ready(function(){
     var Email = $("#mail").html();
     $.get("getYaris.php?Email="+Email, function(data, status){
-
+        alert(data.YarisId);
+        window.YarisId = data.YarisId;
         function sonrakiSoru()
         {
             $("#s1").text("");
@@ -133,7 +134,7 @@ $(document).ready(function(){
                         }
                     });
                 var redirect = 'testSonuc.php';
-                $.redirectPost(redirect, {dogru: dCevap, yanlis: yCevap});
+                $.redirectPost(redirect, {dogru: dCevap, yanlis: yCevap, YarisId: window.YarisId});
                 //---------- doğrucevap sayisi ve email'i postYsonuc.php sayfasına post etme.
                 /*$.extend(
                     {
@@ -157,8 +158,10 @@ $(document).ready(function(){
                     });
                 var postET = 'postYsonuc.php';
                 $.redirectPost(postET, {dogruSayisi: dCevap, mail: Email});*/
-                $.post("postYsonuc.php",{dogruSayisi:dCevap,mail:Email}, function(data, status){
+                alert(dCevap + " " + yCevap + " " + Email +  " " + window.YarisId);
+                $.post("postYsonuc.php",{dogruSayisi:dCevap,mail:Email, YarisId:window.YarisId}, function(data, status){
                     //alert("Data: " + data + "\nStatus: " + status);
+                    alert(data);
                 });
                 //--------------
 

@@ -4,21 +4,21 @@ include 'Connect.php';
 if ($_SERVER["REQUEST_METHOD"]=="POST")
 {
     global $connect;
-    if(isset($_POST["dogruSayisi"]) && isset($_POST["mail"]))
+    if(isset($_POST["dogruSayisi"]) && isset($_POST["mail"]) && isset($_POST["YarisId"]))
     {
         $dogruSayisi=$_POST["dogruSayisi"];
         $mail=$_POST["mail"];
+        $Yid= $_POST["YarisId"];
 
-        $idOgren="SELECT Yid FROM yaris where KazananID='sonuc'";
+        $idOgren="select Yid from yaris where Durum=1 AND Y1mail <> '$email' LIMIT 1 ";
         $durumCevap = mysqli_query($connect,$idOgren);
         $YidDizi=mysqli_fetch_assoc($durumCevap);
-        $Yid=$YidDizi["Yid"];
+        //$Yid=$YidDizi["Yid"];
 
         $flagOgren="SELECT flag FROM yaris where Yid='$Yid'";
         $flagCevap = mysqli_query($connect,$flagOgren);
         $flagDizi=mysqli_fetch_assoc($flagCevap);
         $flag=$flagDizi["flag"];
-
 
         $y1mailOgren="SELECT Y1mail FROM yaris where Yid='$Yid'";
         $Y1mailCevap = mysqli_query($connect,$y1mailOgren);
@@ -27,7 +27,10 @@ if ($_SERVER["REQUEST_METHOD"]=="POST")
         $y2mailOgren="SELECT Y2mail FROM yaris where Yid='$Yid'";
         $Y2mailCevap = mysqli_query($connect,$y2mailOgren);
         $Y2mail=mysqli_fetch_assoc($Y2mailCevap);
-
+        echo $mail;
+        echo $Y1mail['Y1mail'];
+        echo $Yid;
+        echo $dogruSayisi;
         if($mail==$Y1mail['Y1mail'])
         {
             $y1Ekle="UPDATE yaris SET Y1DogruCevap ='$dogruSayisi' where Yid='$Yid'";

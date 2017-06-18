@@ -1,14 +1,13 @@
 <?php
-include 'connect.php';
+include 'Connect.php';
 
 if ($_SERVER["REQUEST_METHOD"]=="GET")
 {
     $email = $_GET['Email'];
     global $connect;
-    $durum="select * from yaris where Durum=1";
+    $durum="select Yid from yaris where Durum=1 AND Y1mail <> '$email'";
     $durumCevap = mysqli_query($connect,$durum);
     $yarisDurum = mysqli_num_rows($durumCevap);
-
     if($yarisDurum<1)
     {
         getYaris($email);
@@ -21,15 +20,17 @@ if ($_SERVER["REQUEST_METHOD"]=="GET")
 function getDatabaseYaris($email)
 {
     global $connect;
-    $durum2='select soru from yaris where Durum=1';
+    $durum2="select soru from yaris where Durum=1 AND Y1mail <> '$email' LIMIT 1";
     $durumCevap2 = mysqli_query($connect,$durum2);
     $yarisDurum2 = mysqli_num_rows($durumCevap2);
     if($yarisDurum2 > 0)
     {
         $soru_degerleri=mysqli_fetch_assoc($durumCevap2);
     }
-    $yarisDuzenelle = "UPDATE yaris SET Durum = '0' , Y2mail = '$email', Y2DogruCevap = '0' WHERE Durum='1'";
-    $duzenleSonuc = mysqli_query($connect,$yarisDuzenelle);
+    $yarisDuzenelle = "UPDATE yaris SET Durum = '0' , Y2mail = '$email', Y2DogruCevap = '0' WHERE Durum='1' LIMIT 1";
+
+   // $last_id = "SELECT Yid from yaris WHERE Durum='1' limit 1";
+   $duzenleSonuc = mysqli_query($connect,$yarisDuzenelle);
 
     print_r ($soru_degerleri["soru"]);
     header ('Content-Type: application/json');
@@ -133,11 +134,15 @@ function kelimeGetir($kelimeID,$email)
         }
     }
     //------------------------------------------
-    $kelimeID = array("kelimeID" => $kelimeDizisi);
-    header ('Content-Type: application/json');
-    $soru = json_encode($kelimeID, JSON_UNESCAPED_UNICODE);
-    $soruGonder="INSERT INTO yaris (Durum, Y1mail, Y1DogruCevap, soru) VALUES ('1','$email','0','$soru')";
+
+    $soruGonder="INSERT INTO yaris (Durum, Y1mail, Y1DogruCevap, soru) VALUES ('1','$email','0', '')";
     $tResult = mysqli_query($connect,$soruGonder);
+    $eklenen_id = mysqli_insert_id($connect);
+    $kelimeID = array("kelimeID" => $kelimeDizisi, "YarisId" => $eklenen_id);
+    header ('Content-Type: application/json');
+    $soru = json_encode($kelimeID,JSON_UNESCAPED_UNICODE);
+    $soruUpdate = "UPDATE yaris SET soru = '$soru' WHERE Yid = $eklenen_id";
+    mysqli_query($connect,$soruUpdate);
     echo $soru;
 }
 

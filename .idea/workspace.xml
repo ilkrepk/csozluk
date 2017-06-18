@@ -2,134 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b7ade7e-298e-4575-96b2-7ac09891abd3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/examples/images/phpmailer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/examples/images/phpmailer_mini.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/examples/styles/wrapping.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/cerkes.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/PHPMailerAutoload.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/VERSION" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/class.phpmailer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/class.phpmaileroauth.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/class.phpmaileroauthgoogle.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/class.pop3.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/class.smtp.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/composer.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/examples/DKIM.phps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/examples/code_generator.phps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/examples/contactform.phps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/examples/contents.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/examples/contentsutf8.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/examples/exceptions.phps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/examples/gmail.phps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/examples/gmail_xoauth.phps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/examples/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/examples/mail.phps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/examples/mailing_list.phps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/examples/pop_before_smtp.phps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/examples/scripts/XRegExp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/examples/scripts/shAutoloader.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/examples/scripts/shBrushPhp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/examples/scripts/shCore.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/examples/scripts/shLegacy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/examples/send_file_upload.phps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/examples/send_multiple_file_upload.phps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/examples/sendmail.phps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/examples/signed-mail.phps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/examples/smtp.phps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/examples/smtp_check.phps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/examples/smtp_no_auth.phps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/examples/ssl_options.phps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/examples/styles/shCore.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/examples/styles/shCoreDefault.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/examples/styles/shCoreDjango.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/examples/styles/shCoreEclipse.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/examples/styles/shCoreEmacs.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/examples/styles/shCoreFadeToGrey.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/examples/styles/shCoreMDUltra.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/examples/styles/shCoreMidnight.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/examples/styles/shCoreRDark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/examples/styles/shThemeAppleScript.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/examples/styles/shThemeDefault.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/examples/styles/shThemeDjango.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/examples/styles/shThemeEclipse.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/examples/styles/shThemeEmacs.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/examples/styles/shThemeFadeToGrey.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/examples/styles/shThemeMDUltra.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/examples/styles/shThemeMidnight.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/examples/styles/shThemeRDark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/examples/styles/shThemeVisualStudio.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/extras/EasyPeasyICS.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/extras/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/extras/htmlfilter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/extras/ntlm_sasl_client.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/get_oauth_token.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-am.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-ar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-az.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-be.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-bg.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-ca.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-ch.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-cs.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-da.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-de.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-el.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-eo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-es.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-et.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-fa.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-fi.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-fo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-fr.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-gl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-he.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-hr.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-hu.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-id.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-it.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-ja.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-ka.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-ko.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-lt.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-lv.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-ms.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-nb.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-nl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-pl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-pt.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-pt_br.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-ro.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-ru.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-sk.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-sl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-sr.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-sv.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-tr.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-uk.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-vi.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-zh.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-zh_cn.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/getCTestKelimeler.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/getTestT.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/getYaris.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/getYarisKelimeler.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gettopList.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gettopList.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/postYsonuc.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/profilPage.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topList.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uyeGetir.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uyeGetir.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yaris.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/panelAc.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cerkesceTest.php" afterPath="$PROJECT_DIR$/cerkesceTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/connect.php" afterPath="$PROJECT_DIR$/connect.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/getTestKelimeler.js" afterPath="$PROJECT_DIR$/getTestKelimeler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index2.php" afterPath="$PROJECT_DIR$/index2.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/loginheader.php" afterPath="$PROJECT_DIR$/loginheader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.php" afterPath="$PROJECT_DIR$/test.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/getYaris.php" afterPath="$PROJECT_DIR$/getYaris.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/getYarisKelimeler.js" afterPath="$PROJECT_DIR$/getYarisKelimeler.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/postYsonuc.php" afterPath="$PROJECT_DIR$/postYsonuc.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profilPage.php" afterPath="$PROJECT_DIR$/profilPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sessionKontrol.php" afterPath="$PROJECT_DIR$/sessionKontrol.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -194,30 +74,10 @@
     <favorites_list name="sozluk" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="yaris.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/yaris.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="31" column="27" lean-forward="false" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>getKelime</find>
-      <find>control-label</find>
-      <find>form-control</find>
-      <find>input-group-addon</find>
-      <find>p</find>
-      <find>0 0 10px</find>
-      <find>.bg-info</find>
-      <find>#CCCCCC</find>
-      <find>h100</find>
       <find>color</find>
       <find>.color</find>
       <find>.renk</find>
@@ -239,6 +99,15 @@
       <find>$yarisSayisi</find>
       <find>$yarisSayisiDizi</find>
       <find>$yarisSayisiCevap</find>
+      <find>epik</find>
+      <find>sonuc</find>
+      <find>$yarisDurum</find>
+      <find>Durum</find>
+      <find>postY</find>
+      <find>KazananId</find>
+      <find>INSERT</find>
+      <find>Y1DogruCevap</find>
+      <find>UPDATE yaris SET Durum = '0' , Y2mail</find>
     </findStrings>
   </component>
   <component name="FrameworkCommandLineHistory">
@@ -256,8 +125,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/getCKelime.php" />
-        <option value="$PROJECT_DIR$/degis.js" />
         <option value="$PROJECT_DIR$/loginIndex.php" />
         <option value="$PROJECT_DIR$/sessionBaslat.php" />
         <option value="$PROJECT_DIR$/../session/denemecikis.php" />
@@ -278,7 +145,6 @@
         <option value="$PROJECT_DIR$/turkceTest.php" />
         <option value="$PROJECT_DIR$/getTest.php" />
         <option value="$PROJECT_DIR$/postUyeler.js" />
-        <option value="$PROJECT_DIR$/sessionKontrol.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/testSonuc.php" />
         <option value="$PROJECT_DIR$/getTestT.php" />
@@ -291,22 +157,25 @@
         <option value="$PROJECT_DIR$/getCTestKelimeler.js" />
         <option value="$PROJECT_DIR$/cerkesceTest.php" />
         <option value="$PROJECT_DIR$/test.php" />
-        <option value="$PROJECT_DIR$/getYaris.php" />
         <option value="$PROJECT_DIR$/yaris.php" />
-        <option value="$PROJECT_DIR$/index2.php" />
-        <option value="$PROJECT_DIR$/getYarisKelimeler.js" />
         <option value="$PROJECT_DIR$/../profil/index.php" />
         <option value="$PROJECT_DIR$/../profil/stil.css" />
         <option value="$PROJECT_DIR$/../profil/stil.js" />
         <option value="$PROJECT_DIR$/getTKelime.php" />
-        <option value="$PROJECT_DIR$/profilPage.php" />
         <option value="$PROJECT_DIR$/uyeGetir.php" />
         <option value="$PROJECT_DIR$/uyeGetir.js" />
-        <option value="$PROJECT_DIR$/postYsonuc.php" />
         <option value="$PROJECT_DIR$/gettopList.php" />
         <option value="$PROJECT_DIR$/loginheader.php" />
         <option value="$PROJECT_DIR$/gettopList.js" />
         <option value="$PROJECT_DIR$/topList.php" />
+        <option value="$PROJECT_DIR$/sessionKontrol.php" />
+        <option value="$PROJECT_DIR$/panelAc.js" />
+        <option value="$PROJECT_DIR$/index2.php" />
+        <option value="$PROJECT_DIR$/admin.php" />
+        <option value="$PROJECT_DIR$/profilPage.php" />
+        <option value="$PROJECT_DIR$/postYsonuc.php" />
+        <option value="$PROJECT_DIR$/getYarisKelimeler.js" />
+        <option value="$PROJECT_DIR$/getYaris.php" />
       </list>
     </option>
   </component>
@@ -485,7 +354,7 @@
       <workItem from="1497189302189" duration="79709000" />
       <workItem from="1497440541121" duration="25550000" />
       <workItem from="1497532370066" duration="14911000" />
-      <workItem from="1497644025587" duration="44715000" />
+      <workItem from="1497644025587" duration="70845000" />
     </task>
     <task id="LOCAL-00001" summary="tkelime eklendi">
       <created>1496609579922</created>
@@ -543,11 +412,18 @@
       <option name="project" value="LOCAL" />
       <updated>1497477283825</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="top 10 list için .js, web service ve arayüz eklendi.&#10;Profil sayfası için .js, web service ve arayüz eklendi.&#10;Yarış için web service, arayüz ve .js eklendi.&#10;mail için composer yüklendi.">
+      <created>1497728279772</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1497728279772</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="248569000" />
+    <option name="totallyTimeSpent" value="274699000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -583,19 +459,21 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20045386" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23404256" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20953101" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852808" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32829046" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -620,7 +498,8 @@
     <MESSAGE value="index.php ve web servislerde düzenlemeler yapıldı. Session için dosylar eklendi" />
     <MESSAGE value="betik.js, insertUyeler.js, sessioninex.php, ve diğer session ile ilgili gerekesiz dosyalar silindi.." />
     <MESSAGE value="Veri tabanından 10x4 json dönen web servis eklendi.&#10;test ekranı tasarımı yapıldı.&#10;test tercihi ekranı eklendi.&#10;test ekranını yazdıran ve doğru cevap sayısı üreten .js eklendi.&#10;doğru ve yanlış sayısının dönüldüğü ekran eklendi." />
-    <option name="LAST_COMMIT_MESSAGE" value="Veri tabanından 10x4 json dönen web servis eklendi.&#10;test ekranı tasarımı yapıldı.&#10;test tercihi ekranı eklendi.&#10;test ekranını yazdıran ve doğru cevap sayısı üreten .js eklendi.&#10;doğru ve yanlış sayısının dönüldüğü ekran eklendi." />
+    <MESSAGE value="top 10 list için .js, web service ve arayüz eklendi.&#10;Profil sayfası için .js, web service ve arayüz eklendi.&#10;Yarış için web service, arayüz ve .js eklendi.&#10;mail için composer yüklendi." />
+    <option name="LAST_COMMIT_MESSAGE" value="top 10 list için .js, web service ve arayüz eklendi.&#10;Profil sayfası için .js, web service ve arayüz eklendi.&#10;Yarış için web service, arayüz ve .js eklendi.&#10;mail için composer yüklendi." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -629,20 +508,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sessionBaslat.php" />
-    <entry file="file://$PROJECT_DIR$/postLogin.php" />
     <entry file="file://$PROJECT_DIR$/postLogin.js" />
     <entry file="file://$PROJECT_DIR$/../ses/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/giris.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -669,14 +539,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/giris.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="32" column="47" lean-forward="false" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/getTestKelimeler.php" />
     <entry file="file://$PROJECT_DIR$/loginIndex.php" />
     <entry file="file://$PROJECT_DIR$/araf.php">
@@ -686,36 +548,6 @@
           <folding>
             <marker date="1496619517542" expanded="true" signature="864:882" ph="..." />
             <marker date="1496619517542" expanded="true" signature="883:1097" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sessionKontrol.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="16" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-          <folding>
-            <marker date="1497474742928" expanded="true" signature="384:449" ph="SELECT * FRO... uyeler" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testSonuc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="55" column="17" lean-forward="false" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
-          <folding>
-            <marker date="1497477007615" expanded="true" signature="462:1078" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insertUyeler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="152" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="152" />
-          <folding>
-            <marker date="1497189831935" expanded="true" signature="543:674" ph="INSERT INTO uyeler... " />
           </folding>
         </state>
       </provider>
@@ -801,14 +633,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kayit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/getTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1037">
@@ -823,53 +647,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/getTestKelimeler.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-289">
-          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="43" column="38" lean-forward="true" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="54" column="10" lean-forward="true" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/postUyeler.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="15" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="13" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/getYaris.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="25" />
-          <folding>
-            <marker date="1497660426381" expanded="true" signature="133:166" ph="select * fro... yaris" />
-            <marker date="1497660426381" expanded="true" signature="454:490" ph="select soru yaris" />
-            <marker date="1497660426381" expanded="true" signature="712:796" ph="UPDATE yaris... " />
-            <marker date="1497660426381" expanded="true" signature="1024:1047" ph="SELECT * FRO... kelimeler" />
-            <marker date="1497660426381" expanded="true" signature="2159:2199" ph="select TKeli... kelimeler" />
-            <marker date="1497660426381" expanded="true" signature="2583:2623" ph="select CKeli... kelimeler" />
-            <marker date="1497660426381" expanded="true" signature="3114:3154" ph="select CKeli... kelimeler" />
-            <marker date="1497660426381" expanded="true" signature="3545:3585" ph="select TKeli... kelimeler" />
-            <marker date="1497660426381" expanded="true" signature="4159:4246" ph="INSERT INTO yaris... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -951,84 +733,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/getYarisKelimeler.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1387">
-          <caret line="168" column="21" lean-forward="false" selection-start-line="168" selection-start-column="17" selection-end-line="168" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/postYsonuc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="171" column="49" lean-forward="false" selection-start-line="171" selection-start-column="49" selection-end-line="171" selection-end-column="49" />
-          <folding>
-            <marker date="1497718158369" expanded="true" signature="254:299" ph="SELECT Yid F... yaris" />
-            <marker date="1497718158369" expanded="true" signature="458:497" ph="SELECT flag yaris" />
-            <marker date="1497718158369" expanded="true" signature="663:704" ph="SELECT Y1mai... yaris" />
-            <marker date="1497718158369" expanded="true" signature="840:881" ph="SELECT Y2mai... yaris" />
-            <marker date="1497718158369" expanded="true" signature="1063:1125" ph="UPDATE yaris... " />
-            <marker date="1497718158369" expanded="true" signature="1220:1267" ph="UPDATE yaris... " />
-            <marker date="1497718158369" expanded="true" signature="1374:1436" ph="UPDATE yaris... " />
-            <marker date="1497718158369" expanded="true" signature="1532:1579" ph="UPDATE yaris... " />
-            <marker date="1497718158369" expanded="true" signature="1698:1745" ph="SELECT Y1Dog... yaris" />
-            <marker date="1497718158369" expanded="true" signature="1772:1819" ph="SELECT Y2Dog... yaris" />
-            <marker date="1497718158369" expanded="true" signature="2282:2330" ph="SELECT Yaris... uyeler" />
-            <marker date="1497718158369" expanded="true" signature="2673:2736" ph="UPDATE uyele... " />
-            <marker date="1497718158369" expanded="true" signature="2896:2944" ph="SELECT Yaris... uyeler" />
-            <marker date="1497718158369" expanded="true" signature="3304:3369" ph="UPDATE uyele... " />
-            <marker date="1497718158369" expanded="true" signature="3548:3598" ph="UPDATE yaris... " />
-            <marker date="1497718158369" expanded="true" signature="3751:3795" ph="SELECT Basar... uyeler" />
-            <marker date="1497718158369" expanded="true" signature="4068:4127" ph="UPDATE uyele... " />
-            <marker date="1497718158369" expanded="true" signature="4288:4332" ph="SELECT Basar... uyeler" />
-            <marker date="1497718158369" expanded="true" signature="4605:4664" ph="UPDATE uyele... " />
-            <marker date="1497718158369" expanded="true" signature="4791:4837" ph="SELECT WinSa... uye" />
-            <marker date="1497718158369" expanded="true" signature="5201:5262" ph="UPDATE uyele... " />
-            <marker date="1497718158369" expanded="true" signature="5575:5625" ph="UPDATE yaris... " />
-            <marker date="1497718158369" expanded="true" signature="5778:5822" ph="SELECT Basar... uyeler" />
-            <marker date="1497718158369" expanded="true" signature="6095:6154" ph="UPDATE uyele... " />
-            <marker date="1497718158369" expanded="true" signature="6315:6359" ph="SELECT Basar... uyeler" />
-            <marker date="1497718158369" expanded="true" signature="6632:6691" ph="UPDATE uyele... " />
-            <marker date="1497718158369" expanded="true" signature="6818:6864" ph="SELECT WinSa... uyeler" />
-            <marker date="1497718158369" expanded="true" signature="7216:7277" ph="UPDATE uyele... " />
-            <marker date="1497718158369" expanded="true" signature="7561:7616" ph="UPDATE yaris... " />
-            <marker date="1497718158369" expanded="true" signature="7741:7774" ph="select * fro... yaris" />
-            <marker date="1497718158369" expanded="true" signature="8114:8164" ph="UPDATE uyele... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/profilPage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="45" column="10" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/uyeGetir.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1083,8 +787,203 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/yaris.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/giris.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/giris.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="47" lean-forward="false" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kayit.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="31" column="27" lean-forward="false" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+          <caret line="31" column="134" lean-forward="true" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="134" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sessionKontrol.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="28" column="17" lean-forward="true" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+          <folding>
+            <marker date="1497728730678" expanded="true" signature="384:449" ph="SELECT * FRO... uyeler" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/postUyeler.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="40" lean-forward="true" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#a#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#2;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#form#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#form#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1497735387263" expanded="true" signature="708:805" ph="INSERT INTO kelimeler... " />
+            <marker date="1497735387263" expanded="true" signature="1041:1099" ph="INSERT INTO kategori... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profilPage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="20" column="75" lean-forward="false" selection-start-line="20" selection-start-column="75" selection-end-line="20" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/panelAc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insertUyeler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="29" selection-end-column="1" />
+          <folding>
+            <marker date="1497189831935" expanded="true" signature="543:674" ph="INSERT INTO uyeler... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getTestKelimeler.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="86" column="47" lean-forward="true" selection-start-line="86" selection-start-column="47" selection-end-line="86" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getYaris.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="29" column="50" lean-forward="false" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
+          <folding>
+            <marker date="1497756299854" expanded="true" signature="133:167" ph="select * fro... yaris" />
+            <marker date="1497756299854" expanded="true" signature="133:168" ph="select * fro... yaris" />
+            <marker date="1497756299854" expanded="true" signature="133:182" ph="select * fro... yaris" />
+            <marker date="1497756299854" expanded="true" signature="133:183" ph="select * fro... yaris" />
+            <marker date="1497756299854" expanded="true" signature="133:191" ph="select * fro... yaris" />
+            <marker date="1497756299854" expanded="true" signature="133:192" ph="select * fro... yaris" />
+            <marker date="1497756299854" expanded="true" signature="478:514" ph="select soru yaris" />
+            <marker date="1497756299854" expanded="true" signature="478:545" ph="select soru yaris" />
+            <marker date="1497756299854" expanded="true" signature="767:851" ph="UPDATE yaris... " />
+            <marker date="1497756299854" expanded="true" signature="767:859" ph="UPDATE yaris... " />
+            <marker date="1497756299854" expanded="true" signature="881:926" ph="SELECT Yid f... yaris" />
+            <marker date="1497756299854" expanded="true" signature="887:918" ph="UPDATE yaris... " />
+            <marker date="1497756299854" expanded="true" signature="1153:1176" ph="SELECT * FRO... kelimeler" />
+            <marker date="1497756299854" expanded="true" signature="2288:2328" ph="select TKeli... kelimeler" />
+            <marker date="1497756299854" expanded="true" signature="2712:2752" ph="select CKeli... kelimeler" />
+            <marker date="1497756299854" expanded="true" signature="3243:3283" ph="select CKeli... kelimeler" />
+            <marker date="1497756299854" expanded="true" signature="3674:3714" ph="select TKeli... kelimeler" />
+            <marker date="1497756299854" expanded="true" signature="4130:4209" ph="INSERT INTO yaris... " />
+            <marker date="1497756299854" expanded="true" signature="4130:4213" ph="INSERT INTO yaris... " />
+            <marker date="1497756299854" expanded="true" signature="4516:4540" ph="UPDATE yaris... " />
+            <marker date="1497756299854" expanded="true" signature="4516:4542" ph="UPDATE yaris... " />
+            <marker date="1497756299854" expanded="true" signature="4516:4559" ph="UPDATE yaris... " />
+            <marker date="1497756299854" expanded="true" signature="4516:4560" ph="UPDATE yaris... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/postYsonuc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="32" column="26" lean-forward="false" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+          <folding>
+            <marker date="1497754496118" expanded="true" signature="315:381" ph="select Yid f... yaris" />
+            <marker date="1497754496118" expanded="true" signature="543:582" ph="SELECT flag yaris" />
+            <marker date="1497754496118" expanded="true" signature="747:788" ph="SELECT Y1mai... yaris" />
+            <marker date="1497754496118" expanded="true" signature="924:965" ph="SELECT Y2mai... yaris" />
+            <marker date="1497754496118" expanded="true" signature="1244:1306" ph="UPDATE yaris... " />
+            <marker date="1497754496118" expanded="true" signature="1401:1448" ph="UPDATE yaris... " />
+            <marker date="1497754496118" expanded="true" signature="1555:1617" ph="UPDATE yaris... " />
+            <marker date="1497754496118" expanded="true" signature="1713:1760" ph="UPDATE yaris... " />
+            <marker date="1497754496118" expanded="true" signature="1879:1926" ph="SELECT Y1Dog... yaris" />
+            <marker date="1497754496118" expanded="true" signature="1953:2000" ph="SELECT Y2Dog... yaris" />
+            <marker date="1497754496118" expanded="true" signature="2463:2511" ph="SELECT Yaris... uyeler" />
+            <marker date="1497754496118" expanded="true" signature="2854:2917" ph="UPDATE uyele... " />
+            <marker date="1497754496118" expanded="true" signature="3077:3125" ph="SELECT Yaris... uyeler" />
+            <marker date="1497754496118" expanded="true" signature="3485:3550" ph="UPDATE uyele... " />
+            <marker date="1497754496118" expanded="true" signature="3729:3779" ph="UPDATE yaris... " />
+            <marker date="1497754496118" expanded="true" signature="3932:3976" ph="SELECT Basar... uyeler" />
+            <marker date="1497754496118" expanded="true" signature="4249:4308" ph="UPDATE uyele... " />
+            <marker date="1497754496118" expanded="true" signature="4469:4513" ph="SELECT Basar... uyeler" />
+            <marker date="1497754496118" expanded="true" signature="4786:4845" ph="UPDATE uyele... " />
+            <marker date="1497754496118" expanded="true" signature="4972:5018" ph="SELECT WinSa... uyeler" />
+            <marker date="1497754496118" expanded="true" signature="5382:5443" ph="UPDATE uyele... " />
+            <marker date="1497754496118" expanded="true" signature="5756:5806" ph="UPDATE yaris... " />
+            <marker date="1497754496118" expanded="true" signature="5959:6003" ph="SELECT Basar... uyeler" />
+            <marker date="1497754496118" expanded="true" signature="6276:6335" ph="UPDATE uyele... " />
+            <marker date="1497754496118" expanded="true" signature="6496:6540" ph="SELECT Basar... uyeler" />
+            <marker date="1497754496118" expanded="true" signature="6813:6872" ph="UPDATE uyele... " />
+            <marker date="1497754496118" expanded="true" signature="6999:7045" ph="SELECT WinSa... uyeler" />
+            <marker date="1497754496118" expanded="true" signature="7397:7458" ph="UPDATE uyele... " />
+            <marker date="1497754496118" expanded="true" signature="7742:7797" ph="UPDATE yaris... " />
+            <marker date="1497754496118" expanded="true" signature="7922:7955" ph="select * fro... yaris" />
+            <marker date="1497754496118" expanded="true" signature="8295:8345" ph="UPDATE uyele... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testSonuc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="46" column="194" lean-forward="true" selection-start-line="46" selection-start-column="194" selection-end-line="46" selection-end-column="194" />
+          <folding>
+            <marker date="1497477007615" expanded="true" signature="462:1078" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getYarisKelimeler.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2312">
+          <caret line="136" column="32" lean-forward="true" selection-start-line="136" selection-start-column="32" selection-end-line="136" selection-end-column="32" />
           <folding />
         </state>
       </provider>

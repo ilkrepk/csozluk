@@ -23,7 +23,14 @@
                 session_start();
                 $_SESSION["E-mail"] = $_POST["email"];
                 $_SESSION["Sifre"] = $_POST["sifre"];
-                header("location: index2.php");
+                if($Email=="admin@admin.com" && $Sifre=="ilkrhcem1993")
+                {
+                    header("location: admin.php");
+                }
+                else
+                {
+                    header("location: index2.php");
+                }
             }
             else
             {
