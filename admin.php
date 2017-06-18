@@ -1,38 +1,61 @@
 <?php
-session_start();
-if(!(isset($_SESSION["E-mail"]) && isset($_SESSION["Sifre"])))
-{
-    header("location: index.php");
-}
-else
-{
-    if(isset($_SESSION["E-mail"]))
+    session_start();
+    include 'connect.php';
+
+    if(!(isset($_SESSION["E-mail"]) && isset($_SESSION["Sifre"])))
     {
-        $email=$_SESSION["E-mail"];
-        if($email!="admin@admin.com")
+        header("location: index.php");
+    }
+    else
+    {
+        if(isset($_SESSION["E-mail"]))
         {
-            header("location: index2.php");
+            $email=$_SESSION["E-mail"];
+            if($email!="admin@admin.com")
+            {
+                header("location: index2.php");
+            }
+        }
+        if ($_SERVER["REQUEST_METHOD"]=="POST")
+        {
+            kelimeEkle();
         }
     }
-    if ($_SERVER["REQUEST_METHOD"]=="POST")
-    {
-        include 'connect.php';
-        kelimeEkle();
-    }
-}
+//kategorileri çekme
+    global $connect;
+    $sorgu="SELECT KategoriAdi from kategori";
+    $result = mysqli_query($connect,$sorgu);
 
+    $number_of_rows = mysqli_num_rows($result);
+    $temp_array = array();
+
+    if($number_of_rows > 0)
+    {
+        while($row = mysqli_fetch_assoc($result))
+        {
+            $temp_array[]=$row;
+        }
+        //print_r($temp_array);
+
+        //echo $temp_array[i]['KategoriAdi'];
+    }
+//------------------
 function kelimeEkle()
 {
     global $connect;
-    if (isset($_POST["Ckelime"]) && isset($_POST["Tkelime"]) && isset($_POST["KategoriID"])){
+    if (isset($_POST["Ckelime"]) && isset($_POST["Tkelime"]) && isset($_POST["KategoriAdi"])){
 
         $Ckelime = $_POST["Ckelime"];
         $Tkelime = $_POST["Tkelime"];
-        $KategoriID = $_POST["KategoriID"];
+        $KategoriAdi = $_POST["KategoriAdi"];
+
+        $KategoriIDOgren = "SELECT KategoriID FROM kategori WHERE KategoriAdi='$KategoriAdi'";
+        $KategoriIDSonuc=mysqli_query($connect, $KategoriIDOgren) or die (mysqli_error($connect));
+        $KategoriIDYaz=mysqli_fetch_assoc($KategoriIDSonuc);
+        $KategoriID=$KategoriIDYaz['KategoriID'];
 
         $query = "INSERT INTO kelimeler (Ckelime, Tkelime, KategoriID) values ('$Ckelime','$Tkelime','$KategoriID');";
         mysqli_query($connect, $query) or die (mysqli_error($connect));
-        mysqli_close($connect);
 
     }
     else if (isset($_POST["KategoriAdi"])){
@@ -74,7 +97,15 @@ function kelimeEkle()
                     <form action="" method="post">
                         <input id="ln" name="Ckelime" type="text" placeholder="Çerkesce Kelime Gir" class="form-control input-md" style="margin-top: 20px; height: 50px">
                         <input id="ln" name="Tkelime" type="text" placeholder="Türkçe Karşılığını Gir" class="form-control input-md" style="margin-top:10px; margin-bottom:10px; height: 50px ">
-                        <input id="ln" name="KategoriID" type="text" placeholder="Kategori ID gir" class="form-control input-md" style="margin-top:10px; margin-bottom:10px; height: 50px ">
+                        <select id="selectbasic" name="KategoriAdi" placeholder="Kategori Seç" class="form-control input-md" style="margin-top:10px; margin-bottom:10px; height: 50px">
+                            <option selected disabled>Kategori Seç</option>
+                            <?php
+                                for($i=0; $i<$number_of_rows; $i++)
+                                {
+                                    echo "<option>".$temp_array[$i]['KategoriAdi']."</option>";
+                                }
+                            ?>
+                        </select>
                         <button type="submit" class="btn btn-info btn-block btn-lg" style="height: 50px; margin-top:30px; margin: auto; font-size: 18px; width: 200px;">Kelimeyi Kaydet</button>
                     </form>
                 </div>

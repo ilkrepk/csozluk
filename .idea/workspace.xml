@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b7ade7e-298e-4575-96b2-7ac09891abd3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/panelAc.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/getYaris.php" afterPath="$PROJECT_DIR$/getYaris.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/getYarisKelimeler.js" afterPath="$PROJECT_DIR$/getYarisKelimeler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/postYsonuc.php" afterPath="$PROJECT_DIR$/postYsonuc.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profilPage.php" afterPath="$PROJECT_DIR$/profilPage.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sessionKontrol.php" afterPath="$PROJECT_DIR$/sessionKontrol.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin.php" afterPath="$PROJECT_DIR$/admin.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -74,11 +68,63 @@
     <favorites_list name="sozluk" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="admin.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="54" column="49" lean-forward="false" selection-start-line="54" selection-start-column="49" selection-end-line="54" selection-end-column="49" />
+              <folding>
+                <marker date="1497792712747" expanded="true" signature="559:591" ph="SELECT Kateg... kategori" />
+                <marker date="1497792712747" expanded="true" signature="1250:1301" ph="SELECT Kateg... kategori" />
+                <marker date="1497792712747" expanded="true" signature="1250:1302" ph="SELECT Kateg... kategori" />
+                <marker date="1497792712747" expanded="true" signature="1250:1314" ph="SELECT Kateg... kategori" />
+                <marker date="1497792712747" expanded="true" signature="1546:1643" ph="INSERT INTO kelimeler... " />
+                <marker date="1497792712747" expanded="true" signature="1847:1905" ph="INSERT INTO kategori... " />
+                <marker date="1497792712747" expanded="true" signature="2174:2200" ph="..." />
+                <marker date="1497792712747" expanded="true" signature="2174:5465" ph="..." />
+                <marker date="1497792712747" expanded="true" signature="2181:2200" ph="..." />
+                <marker date="1497792712747" expanded="true" signature="2846:5457" ph="..." />
+                <marker date="1497792712747" expanded="true" signature="2934:5351" ph="..." />
+                <marker date="1497792712747" expanded="true" signature="2960:5301" ph="..." />
+                <marker date="1497792712747" expanded="true" signature="3035:5286" ph="..." />
+                <marker date="1497792712747" expanded="true" signature="3285:4534" ph="..." />
+                <marker date="1497792712747" expanded="true" signature="3336:4511" ph="..." />
+                <marker date="1497792712747" expanded="true" signature="3833:3882" ph="..." />
+                <marker date="1497792712747" expanded="true" signature="3883:4290" ph="..." />
+                <marker date="1497792712747" expanded="true" signature="4786:5267" ph="..." />
+                <marker date="1497792712747" expanded="true" signature="4837:5244" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kayit.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kayit.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="71" column="24" lean-forward="false" selection-start-line="71" selection-start-column="24" selection-end-line="74" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getCKelime.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/getCKelime.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="30" column="45" lean-forward="false" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
+              <folding>
+                <marker date="1497189927772" expanded="true" signature="228:276" ph="SELECT * fro... kelimeler" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>color</find>
       <find>.color</find>
       <find>.renk</find>
       <find>çerkesce</find>
@@ -108,6 +154,7 @@
       <find>INSERT</find>
       <find>Y1DogruCevap</find>
       <find>UPDATE yaris SET Durum = '0' , Y2mail</find>
+      <find>$query</find>
     </findStrings>
   </component>
   <component name="FrameworkCommandLineHistory">
@@ -171,11 +218,11 @@
         <option value="$PROJECT_DIR$/sessionKontrol.php" />
         <option value="$PROJECT_DIR$/panelAc.js" />
         <option value="$PROJECT_DIR$/index2.php" />
-        <option value="$PROJECT_DIR$/admin.php" />
         <option value="$PROJECT_DIR$/profilPage.php" />
         <option value="$PROJECT_DIR$/postYsonuc.php" />
         <option value="$PROJECT_DIR$/getYarisKelimeler.js" />
         <option value="$PROJECT_DIR$/getYaris.php" />
+        <option value="$PROJECT_DIR$/admin.php" />
       </list>
     </option>
   </component>
@@ -354,7 +401,7 @@
       <workItem from="1497189302189" duration="79709000" />
       <workItem from="1497440541121" duration="25550000" />
       <workItem from="1497532370066" duration="14911000" />
-      <workItem from="1497644025587" duration="70845000" />
+      <workItem from="1497644025587" duration="78035000" />
     </task>
     <task id="LOCAL-00001" summary="tkelime eklendi">
       <created>1496609579922</created>
@@ -419,11 +466,18 @@
       <option name="project" value="LOCAL" />
       <updated>1497728279772</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Basit admin panel eklendi.&#10;Üye bilgilerini çeken web servise eklendi.&#10;Admin panel için slidetoggle yapan .js eklendi.&#10;Bir kullancının birden fazla yarışa girmesi, sıra beklememesi için düzenleme yapıldı.">
+      <created>1497783443555</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1497783443555</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="274699000" />
+    <option name="totallyTimeSpent" value="281889000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -499,7 +553,8 @@
     <MESSAGE value="betik.js, insertUyeler.js, sessioninex.php, ve diğer session ile ilgili gerekesiz dosyalar silindi.." />
     <MESSAGE value="Veri tabanından 10x4 json dönen web servis eklendi.&#10;test ekranı tasarımı yapıldı.&#10;test tercihi ekranı eklendi.&#10;test ekranını yazdıran ve doğru cevap sayısı üreten .js eklendi.&#10;doğru ve yanlış sayısının dönüldüğü ekran eklendi." />
     <MESSAGE value="top 10 list için .js, web service ve arayüz eklendi.&#10;Profil sayfası için .js, web service ve arayüz eklendi.&#10;Yarış için web service, arayüz ve .js eklendi.&#10;mail için composer yüklendi." />
-    <option name="LAST_COMMIT_MESSAGE" value="top 10 list için .js, web service ve arayüz eklendi.&#10;Profil sayfası için .js, web service ve arayüz eklendi.&#10;Yarış için web service, arayüz ve .js eklendi.&#10;mail için composer yüklendi." />
+    <MESSAGE value="Basit admin panel eklendi.&#10;Üye bilgilerini çeken web servise eklendi.&#10;Admin panel için slidetoggle yapan .js eklendi.&#10;Bir kullancının birden fazla yarışa girmesi, sıra beklememesi için düzenleme yapıldı." />
+    <option name="LAST_COMMIT_MESSAGE" value="Basit admin panel eklendi.&#10;Üye bilgilerini çeken web servise eklendi.&#10;Admin panel için slidetoggle yapan .js eklendi.&#10;Bir kullancının birden fazla yarışa girmesi, sıra beklememesi için düzenleme yapıldı." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -552,16 +607,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/getCKelime.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="32" column="48" lean-forward="true" selection-start-line="30" selection-start-column="12" selection-end-line="32" selection-end-column="48" />
-          <folding>
-            <marker date="1497189927772" expanded="true" signature="228:276" ph="SELECT * fro... kelimeler" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PHPMailer-master/examples/gmail.phps">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -597,14 +642,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="25" column="63" lean-forward="true" selection-start-line="25" selection-start-column="63" selection-end-line="25" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/connect.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
           <folding />
         </state>
       </provider>
@@ -809,14 +846,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kayit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="31" column="134" lean-forward="true" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="134" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sessionKontrol.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -832,27 +861,6 @@
         <state relative-caret-position="306">
           <caret line="18" column="40" lean-forward="true" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-          <folding>
-            <element signature="n#style#0;n#button#0;n#a#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#2;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#a#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#form#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#form#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1497735387263" expanded="true" signature="708:805" ph="INSERT INTO kelimeler... " />
-            <marker date="1497735387263" expanded="true" signature="1041:1099" ph="INSERT INTO kategori... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -985,6 +993,60 @@
         <state relative-caret-position="2312">
           <caret line="136" column="32" lean-forward="true" selection-start-line="136" selection-start-column="32" selection-end-line="136" selection-end-column="32" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/connect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="36" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="54" column="49" lean-forward="false" selection-start-line="54" selection-start-column="49" selection-end-line="54" selection-end-column="49" />
+          <folding>
+            <marker date="1497792712747" expanded="true" signature="559:591" ph="SELECT Kateg... kategori" />
+            <marker date="1497792712747" expanded="true" signature="1250:1301" ph="SELECT Kateg... kategori" />
+            <marker date="1497792712747" expanded="true" signature="1250:1302" ph="SELECT Kateg... kategori" />
+            <marker date="1497792712747" expanded="true" signature="1250:1314" ph="SELECT Kateg... kategori" />
+            <marker date="1497792712747" expanded="true" signature="1546:1643" ph="INSERT INTO kelimeler... " />
+            <marker date="1497792712747" expanded="true" signature="1847:1905" ph="INSERT INTO kategori... " />
+            <marker date="1497792712747" expanded="true" signature="2174:2200" ph="..." />
+            <marker date="1497792712747" expanded="true" signature="2174:5465" ph="..." />
+            <marker date="1497792712747" expanded="true" signature="2181:2200" ph="..." />
+            <marker date="1497792712747" expanded="true" signature="2846:5457" ph="..." />
+            <marker date="1497792712747" expanded="true" signature="2934:5351" ph="..." />
+            <marker date="1497792712747" expanded="true" signature="2960:5301" ph="..." />
+            <marker date="1497792712747" expanded="true" signature="3035:5286" ph="..." />
+            <marker date="1497792712747" expanded="true" signature="3285:4534" ph="..." />
+            <marker date="1497792712747" expanded="true" signature="3336:4511" ph="..." />
+            <marker date="1497792712747" expanded="true" signature="3833:3882" ph="..." />
+            <marker date="1497792712747" expanded="true" signature="3883:4290" ph="..." />
+            <marker date="1497792712747" expanded="true" signature="4786:5267" ph="..." />
+            <marker date="1497792712747" expanded="true" signature="4837:5244" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kayit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="71" column="24" lean-forward="false" selection-start-line="71" selection-start-column="24" selection-end-line="74" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getCKelime.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="45" lean-forward="false" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
+          <folding>
+            <marker date="1497189927772" expanded="true" signature="228:276" ph="SELECT * fro... kelimeler" />
+          </folding>
         </state>
       </provider>
     </entry>
