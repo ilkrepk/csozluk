@@ -66,7 +66,7 @@ function kelimeEkle()
         $KategoriEkleSorgu = "INSERT INTO kategori (KategoriAdi) values ('$KategoriAdi');";
         mysqli_query($connect, $KategoriEkleSorgu) or die (mysqli_error($connect));
         mysqli_close($connect);
-
+        header("location:admin.php");
     } else {
         header("HTTP/1.1 POST 200 OK.");
         die("An HTTP error 400 (invalid request) occurred.");
@@ -111,7 +111,7 @@ function kelimeEkle()
                         <button type="submit" class="btn btn-info btn-block btn-lg" style="height: 50px; margin-top:30px; margin: auto; font-size: 18px; width: 200px;">Kelimeyi Kaydet</button>
                     </form>
                 </div>
-                <a href="#"><button type="button" id="panelAc2" class="btn btn-info btn-block btn-lg" style="height: 50px; margin-top:30px; font-size: 18px;">Kelime Ekle Panelini Aç</button></a>
+                <a href="#"><button type="button" id="panelAc2" class="btn btn-info btn-block btn-lg" style="height: 50px; margin-top:30px; font-size: 18px;">Kategori Ekle Panelini Aç</button></a>
                 <div id="panel2" style="display: none;">
                     <form action="" method="post">
                         <input id="ln" name="KategoriAdiGetir" type="text" placeholder="Kategori Gir" class="form-control input-md" style="margin-top: 20px; margin-bottom: 20px; height: 50px">

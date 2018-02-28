@@ -1,5 +1,5 @@
 <?php
-include 'Connect.php';
+include 'connect.php';
 
 if ($_SERVER["REQUEST_METHOD"]=="GET")
 {

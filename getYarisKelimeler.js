@@ -5,7 +5,6 @@ var dogruCevap;
 $(document).ready(function(){
     var Email = $("#mail").html();
     $.get("getYaris.php?Email="+Email, function(data, status){
-        alert(data.YarisId);
         window.YarisId = data.YarisId;
         function sonrakiSoru()
         {
@@ -158,10 +157,8 @@ $(document).ready(function(){
                     });
                 var postET = 'postYsonuc.php';
                 $.redirectPost(postET, {dogruSayisi: dCevap, mail: Email});*/
-                alert(dCevap + " " + yCevap + " " + Email +  " " + window.YarisId);
                 $.post("postYsonuc.php",{dogruSayisi:dCevap,mail:Email, YarisId:window.YarisId}, function(data, status){
                     //alert("Data: " + data + "\nStatus: " + status);
-                    alert(data);
                 });
                 //--------------
 
